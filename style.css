@@ -1,0 +1,27 @@
+.head{
+background-color: aqua;
+}
+.foot{
+    background-color: aqua;
+}
+.contact2{
+    display: flex;
+  justify-content: space-around;
+  height: 100%;
+  padding: 10px;
+}
+
+
+.contact1{
+    display: flex;
+    flex-flow: row-reverse;
+    height: 100%;
+}
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+img{
+    border-radius: 50%;
+}
