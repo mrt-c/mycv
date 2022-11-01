@@ -1,27 +1,39 @@
-.head{
-background-color: aqua;
+.foot {
+  background-color: aqua;
 }
-.foot{
-    background-color: aqua;
-}
-.contact2{
-    display: flex;
+.contact2 {
+  display: flex;
   justify-content: space-around;
   height: 100%;
   padding: 10px;
 }
-
-
-.contact1{
-    display: flex;
-    flex-flow: row-reverse;
-    height: 100%;
+.head {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
-.aboutme{
+.htmlinf ,.cssinf{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    
+    align-items:baseline ;
 }
-img{
-    border-radius: 50%;
+.html ,.css{
+height:  30px;
+}
+.htmlline1 ,.cssline1{
+    width: 50px;
+    height: 5px;
+    background-color: red;
+}
+.htmlline2 ,.cssline2{
+    width: 300px;
+    height: 5px;
+    background-color: gray;
+}
+    .redline {
+  background-color: red;
+  height: 5px;
+  margin: 30px 0 30px;
+  width: 400px;
 }
