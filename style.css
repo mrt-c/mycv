@@ -1,12 +1,11 @@
 .foot {
-  background-color: aqua;
-}
-.contact2 {
+  height: 30%;
   display: flex;
-  justify-content: space-around;
-  height: 100%;
-  padding: 10px;
+  justify-content: space-evenly;
+  align-items: flex-end
 }
+
+
 .head {
   display: flex;
   flex-direction: row;
